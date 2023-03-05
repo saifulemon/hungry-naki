@@ -5,8 +5,9 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    position: sticky;
+    position: sticky !important;
     top: 0;
+    z-index: 99999;
 }
 
 .item {
