@@ -1,7 +1,7 @@
 import Image from "next/image";
 import styles from "../styles/Cart.module.css";
 
-const cart = () => {
+const Cart = () => {
     return (
         <section className={styles.container}>
             <div className={styles.left}>
@@ -79,4 +79,4 @@ const cart = () => {
     );
 };
 
-export default cart;
+export default Cart;

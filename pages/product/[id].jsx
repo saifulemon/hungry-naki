@@ -1,6 +1,6 @@
+import styles from "../styles/Product.module.css";
 import Image from "next/image";
 import { useState } from "react";
-import styles from "../styles/Product.module.css";
 const Product = () => {
   const [size, setSize] = useState(0);
   const pizza = {
